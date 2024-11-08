@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mortgage Repayment Calculator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script src="https://kit.fontawesome.com/679603c50e.js" crossorigin="anonymous"></script>
+  <script src="/assets/js/calc.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="mortgage">
+      <div class="mortgage-header">
+        <h1>Mortgage Calculator</h1>
+        <a href="#">Clear All</a>
+      </div>
+      <div class="mortgage-main">
+        <div class="mortgage-amount">
+          <h2>Mortgage Amount</h2>
+          <span>
+            <p>£</p><input type="text">
+          </span>
+        </div>
+        <div class="term-rate">
+          <div class="mortgage-term">
+            <h2>Mortgage Term</h2>
+            <span><input type="text">
+              <p>years</p>
+            </span>
+          </div>
+          <div class="mortgage-rate">
+            <h2>Mortgage Rate</h2>
+            <span><input type="text">
+              <p>%</p>
+            </span>
+          </div>
+        </div>
+        <div class="mortgage-type">
+          <h2>Mortgage Type</h2>
+          <div class="radio-group">
+            <div class="label">
+              <input type="radio" id="repayment" name="mortgage-type" value="repayment">
+              <label for="repayment">Repayment</label>
+            </div>
+            <div class="label">
+              <input type="radio" id="interest-only" name="mortgage-type" value="interest-only">
+              <label for="interest-only">Interest Only</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mortgage-btn">
+        <button><i class="fa-solid fa-calculator"></i> Calculate Repayments</button>
+      </div>
+    </div>
+    <div class="mortgage-shown">
+      <div class="mortgage-results">
+        <img src="/assets/img/mobile-img.png" alt="">
+        <h2>Results shown here</h2>
+        <p>Complete the form and click “calculate repayments” to see what your monthly repayments would be.</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
