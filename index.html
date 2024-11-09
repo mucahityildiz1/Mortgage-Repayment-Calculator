@@ -19,27 +19,31 @@
     <div class="mortgage">
       <div class="mortgage-header">
         <h1>Mortgage Calculator</h1>
-        <a href="#">Clear All</a>
+        <a id="clearBtn" href="#">Clear All</a>
       </div>
       <div class="mortgage-main">
         <div class="mortgage-amount">
           <h2>Mortgage Amount</h2>
-          <span>
-            <p>£</p><input type="text">
-          </span>
+          <div class="amount-input">
+            <img src="/assets/img/img-money.png" alt="">
+            <input id="fiyat" type="text">
+          </div>
         </div>
         <div class="term-rate">
           <div class="mortgage-term">
             <h2>Mortgage Term</h2>
-            <span><input type="text">
-              <p>years</p>
-            </span>
+            <div class="term-input">
+              <input id="yillikFaiz" type="text">
+              <img src="/assets/img/img-years.png" alt="">
+            </div>
+
           </div>
           <div class="mortgage-rate">
             <h2>Mortgage Rate</h2>
-            <span><input type="text">
-              <p>%</p>
-            </span>
+            <div class="rate-input">
+              <input id="yuzde" type="text">
+              <img src="/assets/img/img-calc.png" alt="">
+            </div>
           </div>
         </div>
         <div class="mortgage-type">
@@ -57,7 +61,7 @@
         </div>
       </div>
       <div class="mortgage-btn">
-        <button><i class="fa-solid fa-calculator"></i> Calculate Repayments</button>
+        <button id="calculateBtn"><i class="fa-solid fa-calculator"></i> Calculate Repayments</button>
       </div>
     </div>
     <div class="mortgage-shown">
