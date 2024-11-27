@@ -157,7 +157,43 @@
   text-align: center;
   color: #9abed5;
 }
-
+.calc-header {
+  font-size: var(--font-sizetext-preset-2);
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.calc-text {
+  font-size: var(--font-sizetext-preset-4);
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #9abed5;
+  margin-bottom: 40px;
+}
+.calc-container {
+  border-top: 4px solid var(--color-lime, #d8db2f);
+}
+.calc-kredi {
+  font-size: var(--font-sizetext-preset-1);
+  font-weight: 700;
+  line-height: 70px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #d8db2f;
+}
+.calc-geriodeme {
+  font-size: var(--font-sizetext-preset-4);
+  font-weight: 500;
+  line-height: 24px;
+  color: #9abed5;
+}
 @media (width > 767px) {
   body {
     background-color: #e4f4fd;
